@@ -175,23 +175,6 @@ $(document).ready(function () {
                 back_img_two.hide();
             }
         });
-
-    // var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 200})
-    //     .addTo(controller)
-    //     .addIndicators({name: "Trigger Action"}) // add indicators (requires plugin)
-    //     .on("update", function (e) {
-    //         $("#scrollDirection").text(e.target.controller().info("scrollDirection"));
-    //     })
-    //     .on("enter leave", function (e) {
-    //         console.log(e.type);
-    //         temp();
-    //     })
-    //     .on("start end", function (e) {
-    //         $("#lastHit").text(e.type == "start" ? "top" : "bottom");
-    //     })
-    //     .on("progress", function (e) {
-    //         $("#progress").text(e.progress.toFixed(3));
-    //     });
 });
 
 function temp() {
